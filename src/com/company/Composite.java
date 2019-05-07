@@ -16,7 +16,7 @@ public class Composite {
         composite2.addComponent(new Circle());
 
         composite.addComponent(composite2);
-
+        //composite2.addComponent(composite);
         composite.draw();
     }
 }
